@@ -1,0 +1,110 @@
+<?php include_once("../layout/header.html"); ?>
+<div class="location">
+    <ul>
+        <li>
+            <a href="../index.html">홈</a>
+        </li>
+        <li>
+            <a href="../sub/join01.html">Join(약관동의)</a>
+        </li>
+    </ul>
+</div>
+<section>
+    <div id="contents_join01">
+        <h2 class="title_style">JOIN MEMBER</h2>
+        <div class="member_join_wrap">
+            <ul class="step_style">
+                <li>
+                    <img src="/img/image/join_step_on1.jpg" alt="">
+                    <p>회원약관 동의</p>
+                </li>
+                <li>
+                    <img src="/img/image/join_step2.jpg" alt="">
+                    <p>회원정보입력</p>
+                </li>
+                <li>
+                    <img src="/img/image/join_step3.jpg" alt="">
+                    <p>가입완료</p>
+                </li>
+            </ul>
+            <div class="join01_txt">
+                빌리베어의 서비스를 이용하기
+                <br class="d_hidden">
+                위해서는 이용 약관을 읽어보시고
+                <br class="d_hidden">
+                동의하셔야 합니다.
+                <br>
+                회원가입은 무료이며,
+                <br class="d_hidden">
+                가입 즉시 서비스를 이용하실 수 있습니다.
+                <br class="d_hidden">
+                (회원가입은 만 14세 이상부터 가능합니다.)
+                <br>
+                <span>
+                    아래의 약관을 반드시 읽고
+                    <br class="d_hidden">
+                    동의해주십시오.
+                </span>
+            </div>
+            <form class="agreeform">
+                <fieldset>
+                    <legend class="hidden">약관동의 폼</legend>
+                    <div class="join1_box">
+                        <h3 class="join-tit">서비스 이용약관</h3>
+                        <div class="join1_scrollbox">
+                            <strong>홈페이지 이용약관</strong>
+                        </div>
+                        <input type="checkbox" class="check_style1" name="agree1" id="agree1">
+                        <label for="agree1">(필수) 이용약관에 동의합니다.</label>
+                    </div>
+                    <div class="join1_box">
+                        <h3 class="join-tit">개인정보 수집 및 이용동의</h3>
+                        <div class="join1_scrollbox">
+                            <strong>개인정보취급방침</strong>
+                        </div>
+                        <input type="checkbox" class="check_style1" name="agree2" id="agree2">
+                        <label for="agree2">(필수) 개인정보수집 및 활용에 동의합니다.</label>
+                    </div>
+                    <div class="join1_box">
+                        <h3 class="join-tit">위치기반서비스 이용약관</h3>
+                        <div class="join1_scrollbox">
+                            <strong>제 1 조 (목적)</strong>
+                        </div>
+                        <input type="checkbox" class="check_style1" name="agree3" id="agree3">
+                        <label for="agree3">(선택) 위치기반서비스 이용약관에 동의합니다.</label>
+                    </div>
+                    <div class="join-sms">
+                        <h3 class="join-tit">
+                            (선택) 마케팅활용/광고성정보 수신동의
+                        </h3>
+                        <ul>
+                            <li>
+                                <input type="checkbox" class="check_style1" name="agree4" id="agree4">
+                                <label for="agree4">SMS</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="check_style1" name="agree5" id="agree5">
+                                <label for="agree5">이메일</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="check_style1" name="agree6" id="agree6">
+                                <label for="agree6">푸시알람</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="all_check">
+                        <input type="checkbox"  class="check_style1" name="joinall_ok" id="checkAll">
+                        <label for="checkAll">위의 모든 약관에 동의합니다.</label>
+                    </div>
+                    <div class="join_certify">
+                        <div class="btn_box1">
+                            <a class="btn_phone" href="/sub/join02.html">휴대폰 인증 회원가입</a>
+                            <a class="btn_cancle" href="#">취소</a>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</section>
+<?php include_once("../layout/footer.html"); ?>

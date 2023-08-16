@@ -1,0 +1,225 @@
+<?php include_once("../layout/header.html"); ?>
+<div class="location">
+    <ul>
+        <li>
+            <a href="../index.html">홈</a>
+        </li>
+        <li>
+            <a href="../sub/join.html">Join(회원정보입력)</a>
+        </li>
+    </ul>
+</div>
+<section>
+    <div id="contents_join02">
+        <h2 class="title_style">JOIN MEMBER</h2>
+        <div class="member_join_wrap">
+            <ul class="step_style">
+                <li>
+                    <img src="/img/image/join_step1.jpg" alt="">
+                    <p>회원약관 동의</p>
+                </li>
+                <li>
+                    <img src="/img/image/join_step_on2.jpg" alt="">
+                    <p>회원정보입력</p>
+                </li>
+                <li>
+                    <img src="/img/image/join_step3.jpg" alt="">
+                    <p>가입완료</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <fieldset id="join02">
+        <legend class="hidden">회원가입 정보 입력 폼</legend>
+        <div class="join_table">
+            <p class="join_table_txt1">필수 입력 사항</p>
+            <table>
+                <tbody>
+                    <tr>
+                        <th>
+                            <label class="star">아이디</label>
+                        </th>
+                        <td>
+                            <input type="text" name="memberId" class="input_size1 mr" maxlength="16">
+                            <a href="#" class="btn_style3">아이디 중복확인</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label class="star">비밀번호</label>
+                        </th>
+                        <td>
+                            <input type="password" name="memberPassword" class="input_size2 mr" maxlength="20">
+                            <span class="txt">6 - 20자 이상 : 영문, 숫자 조합</span>
+                            <em id="pwResult" style="color:red"></em>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label for="" class="star">비밀번호 확인</label></th>
+                        <td>
+                            <input type="password" class="input_size2 mr" name="memberPassword2" id="memberPassword2" maxlength="20">
+                            <span class="txt">비밀번호를 한번 더 입력해주세요.</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label for="" class="star">이름</label></th>
+                        <td class="name">
+                            <input type="text" name="memberId" class="input_size1 mr" maxlength="16">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label for="" class="star">생년월일</label></th>
+                        <td>
+                            <select name="birthY" id="birthY" class="select_size1">
+                                        <option value="2023" selected="">2023</option>
+                                        <option value="2022">2022</option>
+                                        <option value="2021">2021</option>
+                                        <option value="2020">2020</option>
+                                        <option value="2019">2019</option>
+                                        <option value="2018">2018</option>
+                                        <option value="2017">2017</option>
+                                        <option value="2016">2016</option>
+                                        <option value="2015">2015</option>
+                                        <option value="2014">2014</option>
+                                        <option value="2013">2013</option>
+                                        <option value="2012">2012</option>
+                                        <option value="2011">2011</option>
+                                        <option value="2010">2010</option>
+                                        <option value="2009">2009</option>
+                                        <option value="2008">2008</option>
+                                        <option value="2007">2007</option>
+                                        <option value="2006">2006</option>
+                                        <option value="2005">2005</option>
+                                        <option value="2004">2004</option>
+                                        <option value="2003">2003</option>
+                                        <option value="2002">2002</option>
+                                        <option value="2001">2001</option>
+                                        <option value="2000">2000</option>
+                                        <option value="1999">1999</option>
+                                        <option value="1998">1998</option>
+                                        <option value="1997">1997</option>
+                                        <option value="1996">1996</option>
+                                        <option value="1995">1995</option>
+                                        <option value="1994">1994</option>
+                                        <option value="1993">1993</option>
+                                        <option value="1992">1992</option>
+                                        <option value="1991">1991</option>
+                                        <option value="1990">1990</option>
+                                        <option value="1989">1989</option>
+                            </select>
+                            <span class="ml3 mr">년</span>
+                            <select name="birthM" id="birthM" class="select_size2 ml">
+                                    <option value="01" selected="">01</option>
+                                    <option value="02">02</option>
+                                    <option value="03">03</option>
+                                    <option value="04">04</option>
+                                    <option value="05">05</option>
+                                    <option value="06">06</option>
+                                    <option value="07">07</option>
+                                    <option value="08">08</option>
+                                    <option value="09">09</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                            </select>
+                            <span class="ml3 mr">월</span>
+                            <select name="birthD" id="birthD" class="select_size2">
+                                    <option value="01" selected="">01</option>
+                                    <option value="02">02</option>
+                                    <option value="03">03</option>
+                                    <option value="04">04</option>
+                                    <option value="05">05</option>
+                                    <option value="06">06</option>
+                                    <option value="07">07</option>
+                                    <option value="08">08</option>
+                                    <option value="09">09</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="16">16</option>
+                                    <option value="17">17</option>
+                                    <option value="18">18</option>
+                                    <option value="19">19</option>
+                                    <option value="20">20</option>
+                                    <option value="21">21</option>
+                                    <option value="22">22</option>
+                                    <option value="23">23</option>
+                                    <option value="24">24</option>
+                                    <option value="25">25</option>
+                                    <option value="26">26</option>
+                                    <option value="27">27</option>
+                                    <option value="28">28</option>
+                                    <option value="29">29</option>
+                                    <option value="30">30</option>
+                                    <option value="31">31</option>
+                            </select>
+                            <span class="ml3 mr">일</span>
+                            <span class="birth_radio">
+                            <input type="radio" d="sun" value="1" name="islunar" checked="">
+                            <label for="">양력</label>
+                            <input type="radio" class="ml" id="mon" value="0" name="islunar">
+                            <label for="">음력</label>
+                            </span>	
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label for="zipcode1" class="star">주소</label></th>
+                        <td>
+                            <div class="addr1">
+                                <input class="input_size5 mr" type="text" id="zipcode1" placeholder="우편번호">
+                                <button type="button" class="btn_style3" id="addressSearch" onclick="findAddr()">우편번호 검색</button>
+                                <div class="addr">
+                                    <input class="input_size4" type="text" id="address1" placeholder="주소" name="address1">
+                                    <input class="input_size4" type="text" id="address2" placeholder="상세주소" name="address2">
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label for="" class="star">이메일</label></th>
+                        <td class="emali">
+                        <input type="text" name="email1" id="userEmail" class="input_size5 mr">@
+                        <input type="text" name="email2" id="userEmail2" class="input_size5 ml mr inp_modify_mail" maxlength="50">
+                        <select name="email_etc" id="userPhone" class="select_size3">
+                            <option value="">직접입력</option>
+                            <option value="naver.com">naver.com</option>
+                            <option value="gmail.com">gmail.com</option>
+                            <option value="hanmail.net">kakao.com</option>
+                            <option value="nate.com">nate.com</option>
+                        </select>
+                            <span class="email_agree">
+                                <input type="checkbox" id="MemberIsMaillinglist" class="join_check" name="MemberIsMaillinglist" value="Y">
+                                <label for="MemberIsMaillinglist">이메일 수신여부</label>
+                            </span>
+                            <div class="email_txt">휴대폰 / 이메일에 수신동의 하시면 메일을 통해 신상품 및 여러가지 정보를 우선적으로 받아보실 수 있습니다.</div>
+                            <div class="email_txt">회원가입 / 주문배송 관련 등의 메일은 수신동의와 상관없이 모든 회원에게 발송됩니다.</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label for="" class="star">휴대폰 번호</label></th>
+                        <td class="cellphone">
+                            <select name="moblCom" id="moblCom" class="select_size2 mr">
+                                <option value="SKT" selected="">SKT</option>
+                                <option value="KT">KT</option>
+                                <option value="LGT">LGT</option>
+                            </select>
+                            <input class="cell_box" type="text" name="mtel1">
+                            <input class="cell_box" type="text" name="mtel2">
+                            <input class="cell_box" type="text" name="mtel3">
+                            <input type="checkbox" class="join_check" name="MemberIsSMS" id="sms" value="Y">
+                            <label for="sms">SMS 수신여부</label>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="btn_box3">
+                <a href="/sub/join01.html" class="btn_style5 btn_l">취소하기</a>
+                <a href="/sub/join03.html" class="btn_style8 btn_r">다음단계</a>
+            </div>
+        </div>
+    </fieldset>
+</section>
+<?php include_once("../layout/footer.html"); ?>

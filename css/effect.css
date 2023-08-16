@@ -1,0 +1,208 @@
+
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+#slide_banner.swiper{
+    height: 100vh;
+}
+#slide_list1.swiper{
+    width: 1200px;
+    height: auto;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#slide_banner .swiper-slide a{
+    display: block;
+    height: 100%;
+    width: 100%;
+} 
+#slide_banner.swiper .swiper-slide{
+    position: relative;
+}
+#slide_banner.swiper .swiper-slide .banner1{
+    position: absolute;
+    top: 46%;
+    left: 66%;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 84px;
+}
+#slide_banner.swiper .swiper-slide .banner2{
+    position: absolute;
+    top: 72%;
+    left: 38%;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 84px;
+}
+#slide_banner.swiper .swiper-slide .banner3{
+    position: absolute;
+    top: 46%;
+    left: 12%;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 84px;
+}
+#slide_banner.swiper .swiper-slide .banner4{
+    position: absolute;
+    top: 74%;
+    left: 6%;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 84px;
+}
+#slide_banner.swiper .swiper-slide .banner5{
+    position: absolute;
+    top: 66%;
+    left: 66%;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 84px;
+}
+#slide_banner.swiper .swiper-slide p a{
+    display: block;
+    color: #fff;
+}
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#slide_list1.swiper{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+#slide_list1 .swiper-pagination{
+    position: relative;
+    top: auto;
+    left: auto;
+    bottom: auto;
+}
+#slide_list1 .swiper-slide{
+    display: block;
+}
+
+#slide_list1 .swiper-slide .tag_p{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#slide_list1 .swiper-slide .tag_p a{
+    color: #000;
+}
+#slide_list1 .swiper-pagination{
+    margin: 20px 0;
+}
+
+#slide_list2{
+    width: 1200px;
+    height: auto;
+}
+#slide_list2.swiper{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+#slide_list2 h3{
+    font-size: 30px;
+    font-weight: 800;
+    margin: 20px auto;
+    text-align: center;
+}
+#slide_list2 .swiper-pagination{
+    position: relative;
+    top: auto;
+    left: auto;
+    bottom: auto;
+}
+#slide_list2 .swiper-slide{
+    display: block;
+}
+
+#slide_list2 .swiper-slide .tag_p1{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#slide_list2 .swiper-slide .tag_p1 a{
+    color: #000;
+}
+#slide_list2 .swiper-pagination{
+    margin: 20px 0;
+}
+#slide_banner .swiper-button-next:after,
+#slide_banner .swiper-button-prev:after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-top: solid 3px #ff7e0f;
+    border-right: solid 3px #ff7e0f;
+    display: block; 
+}
+#slide_banner .swiper-button-next:after{
+    transform: rotate(45deg);
+    margin-right: 10px;
+}
+#slide_banner .swiper-button-prev:after{
+    transform: rotate(-135deg);
+    margin-left: 10px;
+}
+#slide_banner .swiper-button-next,
+#slide_banner .swiper-button-prev{
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 50%;
+}
+#slide_banner .swiper-button-next{}
+#slide_banner .swiper-button-prev{}
+#slide_banner .swiper-pagination span{
+    background-color: #ff7e0f;
+    border-radius: 0;
+    width: 30px;
+    display: inline-block;
+    height: 6px;
+}
+#slide_list1 .swiper-pagination-bullet{
+    background-color: #ff7e0f;
+    border-radius: 0;
+    width: 30px;
+    display: inline-block;
+    height: 6px;
+}
+#slide_list2 .swiper-pagination-bullet{
+    background-color: #ff7e0f;
+    border-radius: 0;
+    width: 30px;
+    display: inline-block;
+    height: 6px;
+}
+
+#slide_list1 .swiper-slide:hover .tag_p{
+    background-color: #6b6b6b;
+}
+#slide_list1 .swiper-slide:hover .tag_p a{
+    color: #fff;
+}
+#slide_list2 .swiper-slide:hover .tag_p1{
+    background-color: #6b6b6b;
+}
+#slide_list2 .swiper-slide:hover .tag_p1 a{
+    color: #fff;
+}
+

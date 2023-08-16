@@ -1,0 +1,25 @@
+// 변수 셋팅 용도
+// $mainColor :  ;
+
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin con{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+@mixin smallmenu{
+    line-height: 40px;
+    color: #999;
+}
+@mixin mainfont{
+    font-family: 'S-CoreDream-3Light';
+}
+
+$mainColor:#333;
+$fontcolor:#999;

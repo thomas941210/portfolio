@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐻BilyBear🐻</title>
+    <!--  파비콘 시작-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+    <link rel="manifest" href="/img/site.webmanifest">
+    <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#081e24">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <!-- 파비콘 끝 -->
+    <link rel="stylesheet" href="/css/reset.css">
+    <!-- Link Swiper's CSS -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/css/libs/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    
+    
+    <!-- Link Swiper's effect -->
+    <link rel="stylesheet" href="/css/effect.css">
+    <link rel="stylesheet" href="/scss/main.min.css">
+    
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/dist/wow.min.js"></script>
+    <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+    
+    
+
+    <!-- Link js  -->
+    <script src="/js/main.js"></script>
+</head>
+<body>
+    <!-- header#wrap>div.container>div.util_menu>ul.nav-right>li*4>a[href="#"]>img[src="/img/search0.png"] -->
+    <header id="wrap">
+        <div class="container">
+            <div class="util_menu">
+                <ul class="nav-right">
+                    <input class="search_bar" type="text" placeholder="검색어를 입력해주세요.">
+                    <button class="search_btn">검색</button>
+                    <li class="search"><a href="#"><img src="/img/search0.png" data-origin="/img/search0.png" data-img="/img/search1.png" alt="검색"></a></li>
+                    <li><a href="/sub/mypage.html"><img src="/img/mypage0.png" data-origin="/img/mypage0.png" data-img="/img/mypage1.png"  alt="마이페이지"></a></li>
+                    <li><a href="/sub/login.html">LOGIN</a></li>
+                    <li><a href="/sub/join01.html">SIGNUP</a></li>
+                </ul>
+            </div>
+            <!-- div.navbar>h1>a[href="/index.html"]>img[src="/img/logo1.svg"alt="logo"] -->
+            <div class="navbar">
+                <h1><a href="/index.html"><img src="/img/logo1.svg" alt="logo"></a></h1>
+            <!-- nav>ul.depth-01>li*6>a[href="#"]+ul.depth-02>li*9>a[href="#"]^^^^ul.nav-right>li*4>a[href="#"]>img[src=""]^^^^div.drop -->
+                <nav>
+                    <ul class="depth-01">
+                        <li>
+                            <a href="#">기업소개</a>
+                            <ul class="depth-02">
+                                <li><a href="#">브랜드스토리</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">공지사항</a>
+                            <ul class="depth-02">
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">이벤트</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">견적요청</a>
+                        </li>
+                        <li>
+                            <a href="#">텐트설치요령</a>
+                        </li>
+                        <li>
+                            <a href="#">카테고리</a>
+                            <ul class="depth-02">
+                                <li><a href="#">세트상품</a></li>
+                                <li><a href="#">텐트 대여</a></li>
+                                <li><a href="#">타프 대여</a></li>
+                                <li><a href="#">테이블,의자,<br>랜턴,바베큐그릴</a></li>
+                                <li><a href="#">침낭,매트,<br>버너,코펠</a></li>
+                                <li><a href="#">냉,난방용품</a></li>
+                                <li><a href="#">기타캠핑용품</a></li>
+                                <li><a href="#">행사용품</a></li>
+                                <li><a href="#">기타 판매상품</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">고객센터</a>
+                            <ul class="depth-02">
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">예약내역</a></li>
+                                <li><a href="#">약관 및 방침</a></li>
+                                <li><a href="#">1:1 고객 문의</a></li>
+                                <li><a href="#">고객 후기</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="drop"></div>
+        </div>
+        <p class="backTop backTopShow">
+            <a href="#top" class="top">
+                <span>TOP</span>
+            </a>
+        </p>
+    </header>
